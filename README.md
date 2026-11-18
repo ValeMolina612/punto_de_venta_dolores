@@ -17,3 +17,9 @@ flutter run
 flutter test
 flutter analyze
 ```
+
+## Evidencia de pruebas
+
+La suite valida dinero en centavos, carrito, inventario, persistencia y cobro de ventas. Resultado: **9 pruebas aprobadas**.
+
+![Pruebas de Flutter](capturas/pruebas_flutter.png)
