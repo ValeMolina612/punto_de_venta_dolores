@@ -1,31 +1,38 @@
 # Punto de venta Dolores
 
-Aplicación Flutter de punto de venta con almacenamiento local SQLite.
+Aplicación de punto de venta hecha en Flutter. Permite registrar productos, usar un carrito, cobrar ventas y descontar existencias.
 
-## Estructura
+## Cómo ejecutarlo
 
-- `lib/dominio/`: modelos, reglas de negocio y manejo de dinero.
-- `lib/datos/`: base de datos y repositorios.
-- `lib/presentacion/`: aplicación y estado de la caja.
-- `test/`: pruebas de dominio y de acceso a datos.
-
-## Ejecutar y probar
-
-```shell
+```bash
 flutter pub get
 flutter run
-flutter test
-flutter analyze
 ```
 
-## Evidencia de pruebas
+Para ejecutar las pruebas:
 
-La suite valida dinero en centavos, carrito, inventario, persistencia y cobro de ventas. Resultado: **9 pruebas aprobadas**.
+```bash
+flutter test
+```
 
-### Ciclo TDD: rojo a verde
+## Todas las pruebas
 
-Ambas capturas fueron tomadas de ejecuciones reales en la terminal integrada de Visual Studio Code: la fase roja muestra `undefined_function` por código aún no implementado y la fase verde muestra la suite final aprobada.
+Se ejecutaron las siguientes 9 pruebas:
 
-| 🔴 Prueba que solicita código faltante | 🟢 Implementación terminada |
+1. Agrega productos y permite buscarlos con un filtro.
+2. El dinero se muestra correctamente usando centavos.
+3. Convierte pesos a centavos.
+4. El carrito calcula total, IVA y cambio.
+5. El carrito rechaza un pago insuficiente o un carrito vacío.
+6. No permite agregar más unidades de las disponibles.
+7. Rechaza códigos de producto repetidos.
+8. Cobrar una venta descuenta el inventario.
+9. No guarda la venta si el inventario cambió antes del cobro.
+
+Resultado final: **9 pruebas aprobadas**.
+
+## Capturas reales de las pruebas
+
+| Fase roja | Fase verde |
 |---|---|
-| ![Error real por código faltante en la terminal de VS Code](capturas/tdd_rojo_error.png) | ![Pruebas aprobadas en la terminal de VS Code](capturas/pruebas_vscode.png) |
+| ![Error real en la terminal de VS Code](capturas/tdd_rojo_error.png) | ![9 pruebas aprobadas en la terminal de VS Code](capturas/pruebas_vscode.png) |
