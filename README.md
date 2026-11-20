@@ -12,6 +12,10 @@ Proyecto de punto de venta con reglas de dinero, productos, carrito, almacenamie
 
 ## Fase 0. Preparar el taller
 
+<img width="1292" height="852" alt="image" src="https://github.com/user-attachments/assets/af07f4eb-ac5c-422b-b3a8-b60e713f44ea" />
+
+
+
 ### Fase roja
 
 En esta parte la prueba todavía falla porque falta implementar el código de la fase.
