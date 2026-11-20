@@ -1,16 +1,4 @@
-import 'package:flutter/material.dart';
+import '../main.dart' as app;
 
-void main() {
-  runApp(const MainApp());
-}
-
-class MainApp extends StatelessWidget {
-  const MainApp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return const MaterialApp(
-      home: Scaffold(body: Center(child: Text('Hello World!'))),
-    );
-  }
-}
+/// Entrada compatible para configuraciones antiguas que apuntaban a este archivo.
+Future<void> main() => app.main();

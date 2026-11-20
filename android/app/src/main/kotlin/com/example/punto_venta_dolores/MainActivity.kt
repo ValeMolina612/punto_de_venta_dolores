@@ -1,4 +1,4 @@
-package com.example.punto_de_venta_dolores
+package com.example.punto_venta_dolores
 
 import io.flutter.embedding.android.FlutterActivity
 

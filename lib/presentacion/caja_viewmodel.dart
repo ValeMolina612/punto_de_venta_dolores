@@ -33,7 +33,21 @@ class CajaViewModel extends ChangeNotifier {
 
   void quitar(String codigo) {
     carrito.quitar(codigo);
+    mensaje = null;
     notifyListeners();
+  }
+
+  Future<bool> agregarProducto(Producto producto, {String filtro = ''}) async {
+    try {
+      await productos.agregar(producto);
+      mensaje = null;
+      await cargar(filtro: filtro);
+      return true;
+    } catch (error) {
+      mensaje = error.toString();
+      notifyListeners();
+      return false;
+    }
   }
 
   Future<bool> cobrar(String textoPago) async {
@@ -44,8 +58,10 @@ class CajaViewModel extends ChangeNotifier {
       carrito = Carrito();
       await cargar();
       return true;
-    } catch (e) {
-      mensaje = e.toString();
+    } catch (error) {
+      mensaje = error is FormatException
+          ? 'Ingresa una cantidad de pago válida.'
+          : error.toString();
       notifyListeners();
       return false;
     }
