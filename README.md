@@ -8,9 +8,7 @@ Proyecto de punto de venta con reglas de dinero, productos, carrito, almacenamie
 2. Ejecutar las pruebas con `flutter test`.
 3. Abrir la aplicación con `flutter run`.
 
-## Trabajo con TDD
 
-En cada fase se siguió el ciclo rojo y verde. La captura roja muestra el error real producido antes de completar el código faltante. La captura verde muestra en Visual Studio Code el código usado para resolver esa fase.
 
 ## Fase 0. Preparar el taller
 
@@ -121,7 +119,4 @@ Esta es la aplicación ejecutándose después de terminar las fases.
 <img width="470" height="983" alt="image" src="https://github.com/user-attachments/assets/f606a41d-adb2-4837-b406-db366f1ab068" />
 
 
-## Resultado
-
-Las fases quedaron documentadas una por una. Cada fase conserva su evidencia roja y verde, y al final se muestra el resultado completo de la aplicación.
 
