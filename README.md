@@ -39,6 +39,8 @@ En esta parte la prueba todavía falla porque falta implementar el código de la
 Después se agrega el código necesario para resolver la prueba y continuar con el proyecto.
 
 ![Código de la fase 1](capturas/fases/fase_01_verde.png)
+<img width="1915" height="933" alt="image" src="https://github.com/user-attachments/assets/e94440ad-6a59-4957-819d-3cdcb1816ebb" />
+
 
 ## Fase 2. Producto
 
