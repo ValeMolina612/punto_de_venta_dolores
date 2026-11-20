@@ -109,6 +109,7 @@ En esta parte la prueba todavía falla porque falta implementar el código de la
 Después se agrega el código necesario para resolver la prueba y continuar con el proyecto.
 
 ![Código de la fase 6](capturas/fases/fase_06_verde.png)
+<img width="1897" height="931" alt="image" src="https://github.com/user-attachments/assets/9053673b-9906-4d2c-8871-445510befa1a" />
 
 ## Aplicación completa
 
