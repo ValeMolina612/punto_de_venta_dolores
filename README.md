@@ -113,8 +113,8 @@ Después se agrega el código necesario para resolver la prueba y continuar con 
 ## Aplicación completa
 
 Esta es la aplicación ejecutándose después de terminar las fases.
+<img width="470" height="983" alt="image" src="https://github.com/user-attachments/assets/f606a41d-adb2-4837-b406-db366f1ab068" />
 
-![Aplicación completa](capturas/app_final.png)
 
 ## Resultado
 
