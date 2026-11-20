@@ -25,6 +25,8 @@ En esta parte la prueba todavía falla porque falta implementar el código de la
 Después se agrega el código necesario para resolver la prueba y continuar con el proyecto.
 
 ![Código de la fase 0](capturas/fases/fase_00_verde.png)
+<img width="1917" height="935" alt="image" src="https://github.com/user-attachments/assets/8d21de7f-d52e-45e7-a946-59425f3143f3" />
+
 
 ## Fase 1. Reglas del dinero
 
